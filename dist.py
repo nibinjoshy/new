@@ -6,7 +6,7 @@ import matplotlib
 import seaborn as sns
 
 
-st.title("Distilation column")
+st.title("Distillation Column")
 st.subheader("McCabe thieli Method")
 st.sidebar.title("Its all yours")
 def main():
