@@ -90,6 +90,7 @@ def main():
         au = np.ones(gh + 1) * h[i + 1]
         plt.plot(au, ay, 'r')
     sns.set_style("darkgrid")
+    st.write("Minimum reflux ratio=",rm)
     st.pyplot()
     st.write("Number of stages required for current separation to take place=", gh - 1)
     if st.button('About'):
