@@ -14,7 +14,7 @@ def main():
     xw = st.sidebar.slider('Bottoms concentration (xw)', .02, .98, .058)
     yd = st.sidebar.slider('Top concentration (yd)', .04, .98, .9)
     rv= st.sidebar.slider('Relative volatality', 1.5, 10.0, 3.0)
-    q = st.sidebar.slider('vapour liquid ratio', .05, .95, .33)
+    q = st.sidebar.slider('q ', .05, .95, .33)
     mul = st.sidebar.slider('Multiplies R mini', 1.5, 10.0, 2.0)
     x1 = np.linspace(0, 1, 11)
     y1 = np.linspace(0, 1, 11)
